@@ -6,7 +6,7 @@
 /*   By: jcreux <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/30 04:38:06 by jcreux            #+#    #+#             */
-/*   Updated: 2018/12/17 11:21:43 by jcreux           ###   ########.fr       */
+/*   Updated: 2019/02/15 11:59:55 by jcreux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ char	*ft_strcpy(char *dest, const char *src);
 void	ft_strdel(char **as);
 char	*ft_strdup(const char *str);
 int		ft_strequ(char const *s1, char const *s2);
+int		ft_strfind(char *s, int n);
 void	ft_striter(char *s, void (*f)(char *));
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strjoin(char const *s1, char const *s2);
