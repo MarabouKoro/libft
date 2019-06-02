@@ -6,7 +6,7 @@
 /*   By: jcreux <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/30 04:38:06 by jcreux            #+#    #+#             */
-/*   Updated: 2019/05/31 18:44:17 by jcreux           ###   ########.fr       */
+/*   Updated: 2019/06/02 19:49:03 by jcreux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,7 @@ char	*ft_strrchr(const char *s, int c);
 char	**ft_strsplit(char const *s, char c);
 char	*ft_strstr(const char *str1, const char *str2);
 char	*ft_strsub(char const *s, unsigned int start, size_t len);
+char	*ft_strswap(char *s);
 char	*ft_strtrim(char const *s);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
